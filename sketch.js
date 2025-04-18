@@ -1,4 +1,4 @@
-import WaveSurfer from 'wavesurfer.js'
+import WaveSurfer from '<script src="https://unpkg.com/wavesurfer.js@7"></script>'
 
 const wavesurfer = WaveSurfer.create({
   container: document.body,
