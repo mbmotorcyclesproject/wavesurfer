@@ -4,7 +4,7 @@ const wavesurfer = WaveSurfer.create({
   container: document.body,
   waveColor: 'rgb(200, 0, 200)',
   progressColor: 'rgb(100, 0, 100)',
-  url: '/examples/audio/demo.wav',
+  url: '07020209.wav',
 })
 
 wavesurfer.on('click', () => wavesurfer.playPause())
